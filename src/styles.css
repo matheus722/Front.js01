@@ -1,3 +1,51 @@
 body {
   font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #cccccc;
+}
+
+#app {
+  background-color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255) 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+}
+input {
+  margin: 8px 0;
+  padding: 8px;
+}
+.botoes {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-calcular {
+  width: 50%;
+  margin: 0 4px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+}
+.resultados {
+  background-color: rgba(155, 133, 133, 0.808) (141, 133, 133, 76);
+  border: #ff0000 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 16px;
+  border: none;
+}
+#btn-limpar {
+  width: 50%;
+  margin: 0 4px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
 }
